@@ -142,6 +142,7 @@ At this stage, if you are going to work with the same admin address and worker, 
 UTC--2023-08-18T09-32-40.364Z--8ccf, from which we received the PowerArgent backup..... our file with a Winscp-style application
 ![image](https://github.com/ahmkah/Power-Argent-on-Gnosis-Chain/assets/99053148/253ebca1-ee45-4d04-8a0e-0b4f1c84e4b5)
 
+if you want to create a new worker, use this command, if you have made a move, skip this part!!!
 ```console
 node jsongen.js ${YOUR_WORKER_PRIVATE_KEY} ${A_PASSWORD_OF_YOUR_CHOICE}
 ```
