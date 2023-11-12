@@ -54,7 +54,7 @@ rm -rf nethermind-1.20.4-d06ec791-linux-x64.zip
 We start the command in the stage at once in the screen, instead of "PORT1" type the port that you want to be ws, such as 8599 ... Wait a little, then exit the screen with CTRL+A and D.. To enter the screen again "screen -r nethermind" :
 
 ```console
-sudo ufw allow PORT1
+sudo ufw allow 8546
 
 ```
 
@@ -65,7 +65,7 @@ sudo ufw allow PORT1
 --Init.WebSocketsEnabled true \
 --JsonRpc.Enabled true \
 --JsonRpc.EnabledModules "eth,net,web3,subscribe" \
---JsonRpc.WebSocketsPort <PORT1> \
+--JsonRpc.WebSocketsPort 8546 \
 --JsonRpc.Host 0.0.0.0 \
 --JsonRpc.JwtSecretFile /tmp/jwtsecret \
 --baseDbPath ~/nethermindDb \
