@@ -1,6 +1,7 @@
 <h1 align="center"> Power Argent on Gnosis Chain </h1>
 
 https://powerpool.notion.site/Launching-Gnosis-Client-6b96aa04804b45c1acd5654e7d166aed
+
 https://powerpool.notion.site/Landing-Page-59ab36698b8e417db9be39bdd432a42f
 
 ## Hardware requirements
