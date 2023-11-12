@@ -40,7 +40,7 @@ unzip nethermind-1.20.4-d06ec791-linux-x64.zip
 
 rm -rf nethermind-1.20.4-d06ec791-linux-x64.zip
 ```
-We start the command in the stage at once in the screen, instead of <PORT1> type the port that you want to be ws, such as 8599 ... Wait a little, then exit the screen with CTRL+A and D.. To enter the screen again "screen -r nethermind" :
+We start the command in the stage at once in the screen, instead of "<PORT1>" type the port that you want to be ws, such as 8599 ... Wait a little, then exit the screen with CTRL+A and D.. To enter the screen again "screen -r nethermind" :
 
 ```console
 
@@ -73,7 +73,7 @@ sudo cp lighthouse /usr/bin
 
 rm -rf lighthouse lighthouse-v4.5.0-x86_64-unknown-linux-gnu.tar.gz
 ```
-We start the command in the stage at once in the screen <PORT2> <PORT3> <PORT4> instead of typing the desired port, such as 6699 7799 8899 ... Wait a little, then exit the screen with CTRL+A and D.. The time to sync "screen -r lighthouse" to enter the screen again can exceed 24 hours!!!
+We start the command in the stage at once in the screen "<PORT2> <PORT3> <PORT4>" instead of typing the desired port, such as 6699 7799 8899 ... Wait a little, then exit the screen with CTRL+A and D.. The time to sync "screen -r lighthouse" to enter the screen again can exceed 24 hours!!!
 
 ```console
 lighthouse beacon_node \
