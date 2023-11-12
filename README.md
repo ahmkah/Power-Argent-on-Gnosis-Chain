@@ -216,7 +216,7 @@ Update (In the folder with the docker-compose.yaml file run)
 
 ```console
 docker compose down --rmi local
-docker pull eitelvolkerts/pagentv2
+docker pull powerpool/power-agent-node
 docker compose up -d
 
 ```
