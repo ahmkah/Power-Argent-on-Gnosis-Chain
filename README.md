@@ -168,7 +168,7 @@ if you want to create a new worker, use this command, if you have made a move, s
 node jsongen.js ${YOUR_WORKER_PRIVATE_KEY} ${A_PASSWORD_OF_YOUR_CHOICE}
 ```
 
-``main.yaml`` editing. Now open the file below and just change your worker address and password. CTRL + X , y enter to save and exit.
+``main.yaml`` editing. Now open the file below and just change your worker address '<WORKER_ADDRESS_FOR_WHICH_YOU_GENERATED_THE_KEYFILE>' and password '<PASSWORD_SPECIFIED_AT_KEYFILE_GENERATION>'. CTRL + X , y enter to save and exit.
 
 ```console
 nano config/main.yaml
@@ -186,8 +186,8 @@ networks:
         agents:
           '0x071412e301C2087A4DAA055CF4aFa2683cE1e499':
             executor: pga
-            keeper_worker_address: '${WORKER_ADDRESS_FOR_WHICH_YOU_GENERATED_THE_KEYFILE}'
-            key_pass: '${PASSWORD_SPECIFIED_AT_KEYFILE_GENERATION}'
+            keeper_worker_address: '<WORKER_ADDRESS_FOR_WHICH_YOU_GENERATED_THE_KEYFILE>'
+            key_pass: '<PASSWORD_SPECIFIED_AT_KEYFILE_GENERATION>'
             accept_max_base_fee_limit: true
             accrue_reward: true
             tx_resend_or_drop_after_blocks: 4
