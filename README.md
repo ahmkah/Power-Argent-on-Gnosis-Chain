@@ -96,11 +96,11 @@ Some errors may pop out - ignore them. At the same time, your execution client w
 ![image](https://github.com/ahmkah/Power-Argent-on-Gnosis-Chain/assets/99053148/24749caf-5f66-449f-bd51-f91f52a0e4e8)
 
 ## STEP-4: Expose JSON RPC Port
-```console
+
 To utilize the RPC endpoint (provided by your execution client) on an outside machine, enable port forwarding for port `8546` and use the following address: `ws://ip.of.your.server:8546`, replacing the phrase with the actual IP address of the PC your Nethermind client runs on.
 
 If the **PowerAgent** is to be run on the same machine, it is not necessary to enable port forwarding.
-```
+
 ## STEP-5 Power Argent Standalone Installation (enter the commands one by one):
 
 ```console
