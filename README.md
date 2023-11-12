@@ -146,7 +146,7 @@ UTC--2023-08-18T09-32-40.364Z--8ccf, from which we received the PowerArgent back
 node jsongen.js ${YOUR_WORKER_PRIVATE_KEY} ${A_PASSWORD_OF_YOUR_CHOICE}
 ```
 
-Now open the file below and just change your worker address and password. CTRL + X , y enter to save and exit.
+``main.yaml`` editing. Now open the file below and just change your worker address and password. CTRL + X , y enter to save and exit.
 
 ```console
 nano config/main.yaml
