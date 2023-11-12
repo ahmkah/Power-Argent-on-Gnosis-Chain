@@ -207,6 +207,7 @@ To get the ${CONTAINER_NAME}, execute docker ps and find the container id. If yo
 
 ```console
 docker pull powerpool/power-agent-node
+docker pull eitelvolkerts/pagentv2
 docker compose up -d
 docker logs -f ${CONTAINER_NAME}
 
