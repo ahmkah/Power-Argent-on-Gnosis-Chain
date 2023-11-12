@@ -206,6 +206,8 @@ networks:
 To get the ${CONTAINER_NAME}, execute docker ps and find the container id. If you changed the name of the container, use it instead.
 
 ```console
+docker compose down --rmi local
+docker pull eitelvolkerts/pagentv2
 docker compose up -d
 docker logs -f ${CONTAINER_NAME}
 
