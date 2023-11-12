@@ -208,7 +208,12 @@ To get the ${CONTAINER_NAME}, execute docker ps and find the container id. If yo
 ```console
 docker pull powerpool/power-agent-node
 docker compose up -d
-docker logs -f ${CONTAINER_NAME}
+docker logs -f poweragent-standalone-bot-1
+
+```
+Enter the command below to save the Log file:
+```console
+docker logs poweragent-standalone-bot-1 >& powerargentlogfile.log
 
 ```
 
