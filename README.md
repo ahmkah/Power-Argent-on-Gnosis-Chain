@@ -89,10 +89,10 @@ sudo cp lighthouse /usr/bin
 
 rm -rf lighthouse lighthouse-v4.5.0-x86_64-unknown-linux-gnu.tar.gz
 ```
-We start the command in the stage at once in the screen "PORT2, PORT3, PORT4" instead of typing the desired port, such as 6699 7799 8899 ... Wait a little, then exit the screen with CTRL+A and D.. The time to sync "screen -r lighthouse" to enter the screen again can exceed 24 hours!!!
+We start the command in the stage at once in the screen "PORT1, PORT2, PORT3" instead of typing the desired port, such as 6699 7799 8899 ... Wait a little, then exit the screen with CTRL+A and D.. The time to sync "screen -r lighthouse" to enter the screen again can exceed 24 hours!!!
 
 ```console
-sudo ufw allow PORT4
+sudo ufw allow PORT3
 
 ```
 
@@ -103,9 +103,9 @@ lighthouse beacon_node \
 --datadir ~/gnosis-lh1 \
 --execution-endpoints http://127.0.0.1:8551 \
 --jwt-secrets /tmp/jwtsecret \
---enr-udp-port <PORT2> } \
---enr-tcp-port <PORT3>  \
---discovery-port <PORT4>  \
+--enr-udp-port <PORT1> } \
+--enr-tcp-port <PORT2>  \
+--discovery-port <PORT3>  \
 --checkpoint-sync-url https://checkpoint.gnosis.gateway.fm \
 --disable-deposit-contract-sync
 ```
