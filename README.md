@@ -19,6 +19,17 @@ sudo apt-get update && sudo apt-get upgrade -y
 ## STEP-2, Install Nethermind clients (enter the commands one by one):
 
 ## ``IMPORTANT! Do not forget to forward ports: 30303 and  9000 on your router or digital hosting! Otherwise, your nodes will not be discoverable and will not sync!``
+```console
+sudo ufw status
+
+sudo ufw allow 53
+sudo ufw allow 22
+sudo ufw allow 9000
+sudo ufw allow 30303
+
+sudo ufw status enable
+```
+
 
 Generate JWT secret file by executing the following command:
 ```console
@@ -41,6 +52,11 @@ unzip nethermind-1.20.4-d06ec791-linux-x64.zip
 rm -rf nethermind-1.20.4-d06ec791-linux-x64.zip
 ```
 We start the command in the stage at once in the screen, instead of "PORT1" type the port that you want to be ws, such as 8599 ... Wait a little, then exit the screen with CTRL+A and D.. To enter the screen again "screen -r nethermind" :
+
+```console
+sudo ufw allow PORT1
+
+```
 
 ```console
 
@@ -74,6 +90,11 @@ sudo cp lighthouse /usr/bin
 rm -rf lighthouse lighthouse-v4.5.0-x86_64-unknown-linux-gnu.tar.gz
 ```
 We start the command in the stage at once in the screen "PORT2, PORT3, PORT4" instead of typing the desired port, such as 6699 7799 8899 ... Wait a little, then exit the screen with CTRL+A and D.. The time to sync "screen -r lighthouse" to enter the screen again can exceed 24 hours!!!
+
+```console
+sudo ufw allow PORT4
+
+```
 
 ```console
 lighthouse beacon_node \
