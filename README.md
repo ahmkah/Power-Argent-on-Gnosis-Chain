@@ -40,7 +40,7 @@ unzip nethermind-1.20.4-d06ec791-linux-x64.zip
 
 rm -rf nethermind-1.20.4-d06ec791-linux-x64.zip
 ```
-We start the command in the stage at once in the screen, instead of <PORT1>, type the port that you want to be ws, such as 8599 ... Wait a little, then exit the screen with CTRL+A and D.. To enter the screen again "screen -r nethermind" :
+We start the command in the stage at once in the screen, instead of <PORT1> type the port that you want to be ws, such as 8599 ... Wait a little, then exit the screen with CTRL+A and D.. To enter the screen again "screen -r nethermind" :
 
 ```console
 
