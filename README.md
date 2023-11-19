@@ -194,11 +194,10 @@ networks:
             tx_resend_max_gas_price_gwei: 1000
             tx_resend_max_attempts: 4
             gas_price_priority_add_gwei: 100
-            # data_source: subgraph
-            # subgraph_url: https://api.studio.thegraph.com/query/44364/ppav2-rd-sepolia-b11/version/latest
+            data_source: subgraph
+            subgraph_url: https://api.studio.thegraph.com/query/48711/ppav2-rd-gnosis-b12-ui/version/latest
             max_block_delay: 10
             resolve_min_success_count: 3
-
 ```
 
 ## STEP-6 Power Argent Standalone Launch : 
